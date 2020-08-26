@@ -1,0 +1,49 @@
+{
+  "prefectures":[
+        {
+          "prefectureCode":"13",
+          "prefectureName":"東京",
+          "offices": [
+            {
+              "officeCode": "AAA",
+              "officeName": "事務所A",
+              "identifier": "https://mybacket001.s3-ap-northeast-1.amazonaws.com/AAA_shop.csv",
+              "shops": [
+                {
+                  "shopCode": "111",
+                  "shopName": "店所111"
+                },
+                {
+                  "shopCode": "222",
+                  "shopName": "店所222"
+                }
+              ]
+            },
+           {
+            "officeCode": "BBB",
+            "officeName": "事務所B",
+            "identifier": "https://mybacket001.s3-ap-northeast-1.amazonaws.com/BBB_shop.csv",
+            "shops": [
+              {
+                "shopCode": "333",
+                "shopName": "店所333"
+              },
+              {
+                "shopCode": "444",
+                "shopName": "店所444"
+              },
+              {
+                "shopCode": "555",
+                "shopName": "店所555"
+              }
+            ]
+          }
+          ]
+        },
+        {
+          "prefectureCode":"14",
+          "prefectureName":"神奈川",
+          "offices": []
+        }
+      ]
+}
